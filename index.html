@@ -99,9 +99,9 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="#BibTeX" class="external-link button is-normal is-rounded is-dark">
+                  <a href="#Citation" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon"><i class="fas fa-quote-right"></i></span>
-                    <span>BibTeX</span>
+                    <span>Citation</span>
                   </a>
                 </span>
               </div>
@@ -215,22 +215,14 @@
       </div>
     </section>
 
-    <section class="section" id="BibTeX">
+    <section class="section" id="Citation">
       <div class="container is-max-desktop content">
-        <div class="bibtex-header">
-          <h2 class="title">BibTeX</h2>
-          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-            <i class="fas fa-copy"></i>
-            <span class="copy-text">Copy</span>
-          </button>
+        <div class="citation-header">
+          <h2 class="title">Citation</h2>
         </div>
-        <pre id="bibtex-code"><code>@inproceedings{markerless_video_tremor_analysis_2026,
-  title = {Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models},
-  author = {Koshimoto, Yota and Tsukahara, Akihiro and Moriwaki, Yasuhiro and Isogawa, Mariko},
-  booktitle = {Proceedings of MICCAI},
-  year = {2026},
-  note = {To appear}
-}</code></pre>
+        <p class="has-text-centered citation-placeholder">
+          Citation information will be added after publication.
+        </p>
       </div>
     </section>
   </main>
@@ -250,17 +242,5 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    function copyBibTeX() {
-      const code = document.querySelector('#bibtex-code code').innerText;
-      navigator.clipboard.writeText(code);
-      const label = document.querySelector('.copy-text');
-      if (label) {
-        label.innerText = 'Copied';
-        setTimeout(() => { label.innerText = 'Copy'; }, 1600);
-      }
-    }
-  </script>
 </body>
 </html>

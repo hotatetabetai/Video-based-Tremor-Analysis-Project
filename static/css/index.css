@@ -364,7 +364,7 @@ body {
   text-decoration: underline;
 }
 
-/* BibTeX Styling */
+/* Code Styling */
 pre {
   background: var(--background-accent) !important;
   border: 1px solid var(--border-color) !important;
@@ -381,41 +381,17 @@ code {
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace !important;
 }
 
-/* BibTeX Section Improvements */
-.bibtex-header {
+/* Citation Section */
+.citation-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.copy-bibtex-btn {
-  background: var(--primary-color);
-  color: white;
-  border: none;
-  border-radius: var(--border-radius);
-  padding: 0.75rem 1rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: var(--transition);
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.copy-bibtex-btn:hover {
-  background: var(--primary-hover);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-
-.copy-bibtex-btn.copied {
-  background: #10b981;
-}
-
-.copy-bibtex-btn.copied .copy-text::after {
-  content: "ied!";
+.citation-placeholder {
+  color: var(--text-secondary);
+  font-weight: 500;
 }
 
 /* Scroll to Top Button */
@@ -860,4 +836,3 @@ pre {
     min-height: 520px;
   }
 }
-
