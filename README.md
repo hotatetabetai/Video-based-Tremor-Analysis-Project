@@ -10,7 +10,6 @@ The page is built from the Academic Project Page Template and is intended for Gi
 
 - Project page: https://hotatetabetai.github.io/Video-based-Tremor-Analysis-Project/
 - Code repository: https://github.com/hotatetabetai/Markerless-Video-based-Tremor-Analysis
-- Paper PDF: `static/pdfs/paper.pdf`
 
 ## Local Preview
 

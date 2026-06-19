@@ -6,7 +6,7 @@
   <meta name="title" content="Toward Markerless Video-based Tremor Analysis">
   <meta name="description" content="A non-invasive RGB video framework for objective quantification of pathological tremor in mouse preclinical models.">
   <meta name="keywords" content="mouse tremor, markerless pose estimation, DeepLabCut, RGB video, Parkinson's disease, preclinical models, tremor quantification">
-  <meta name="author" content="Anonymized Authors">
+  <meta name="author" content="Yota Koshimoto, Akihiro Tsukahara, Yasuhiro Moriwaki, Mariko Isogawa">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
 
@@ -29,10 +29,12 @@
   <meta name="twitter:image:alt" content="Workflow overview for markerless video-based tremor analysis">
 
   <meta name="citation_title" content="Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models">
-  <meta name="citation_author" content="Anonymized Authors">
+  <meta name="citation_author" content="Koshimoto, Yota">
+  <meta name="citation_author" content="Tsukahara, Akihiro">
+  <meta name="citation_author" content="Moriwaki, Yasuhiro">
+  <meta name="citation_author" content="Isogawa, Mariko">
   <meta name="citation_publication_date" content="2026">
   <meta name="citation_conference_title" content="MICCAI 2026">
-  <meta name="citation_pdf_url" content="https://hotatetabetai.github.io/Video-based-Tremor-Analysis-Project/static/pdfs/paper.pdf">
   <meta name="theme-color" content="#125a55">
 
   <title>Toward Markerless Video-based Tremor Analysis | MICCAI 2026</title>
@@ -53,7 +55,12 @@
     "@type": "ScholarlyArticle",
     "headline": "Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models",
     "description": "A non-invasive RGB video framework for objective quantification of pathological tremor in mouse preclinical models.",
-    "author": [{"@type": "Person", "name": "Anonymized Authors"}],
+    "author": [
+      {"@type": "Person", "name": "Yota Koshimoto", "affiliation": {"@type": "Organization", "name": "Keio University"}},
+      {"@type": "Person", "name": "Akihiro Tsukahara", "affiliation": {"@type": "Organization", "name": "Keio University"}},
+      {"@type": "Person", "name": "Yasuhiro Moriwaki", "affiliation": {"@type": "Organization", "name": "Keio University"}},
+      {"@type": "Person", "name": "Mariko Isogawa", "affiliation": {"@type": "Organization", "name": "Keio University"}}
+    ],
     "datePublished": "2026",
     "publisher": {"@type": "Organization", "name": "MICCAI 2026"},
     "url": "https://hotatetabetai.github.io/Video-based-Tremor-Analysis-Project/",
@@ -76,15 +83,15 @@
                 Objective Quantification of Pathological Tremor in Mouse Preclinical Models
               </h1>
               <div class="is-size-5 publication-authors">
-                <span class="author-block">Anonymized Authors</span>
+                <span class="author-block">Yota Koshimoto</span>
+                <span class="author-block">Akihiro Tsukahara</span>
+                <span class="author-block">Yasuhiro Moriwaki</span>
+                <span class="author-block">Mariko Isogawa</span>
+              </div>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">Keio University, Yokohama, Japan</span>
               </div>
               <div class="publication-links">
-                <span class="link-block">
-                  <a href="static/pdfs/paper.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                    <span>Paper</span>
-                  </a>
-                </span>
                 <span class="link-block">
                   <a href="https://github.com/hotatetabetai/Markerless-Video-based-Tremor-Analysis" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon"><i class="fab fa-github"></i></span>
@@ -125,7 +132,7 @@
                 Tremor is a movement disorder characterized by involuntary, rhythmic oscillations of body parts and is a hallmark of several neurological conditions, including Parkinson's disease and essential tremor. Existing quantitative methods for mouse tremor analysis often require invasive devices, costly equipment, or subjective human scoring.
               </p>
               <p>
-                This work estimates mouse tremor severity using only conventional RGB cameras. The framework combines segmentation, animal pose tracking, multi-view selection, movement filtering, and prominence-based vertical head-displacement analysis to capture subtle tremors in unrestrained mice. Experiments show strong agreement with accelerometer measurements and recover dose-dependent tremor characteristics under harmaline administration.
+                This work estimates mouse tremor severity using only conventional RGB cameras. The pipeline incorporates segmentation-based preprocessing, animal pose tracking, multi-view selection, movement filtering, and prominence-based vertical head-displacement analysis to capture subtle tremors in unrestrained mice. Experiments show strong agreement with accelerometer measurements and recover dose-dependent tremor characteristics under harmaline administration.
               </p>
             </div>
           </div>
@@ -208,13 +215,6 @@
       </div>
     </section>
 
-    <section class="section hero is-light">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3 has-text-centered">Paper</h2>
-        <iframe class="paper-frame" src="static/pdfs/paper.pdf" title="Paper PDF"></iframe>
-      </div>
-    </section>
-
     <section class="section" id="BibTeX">
       <div class="container is-max-desktop content">
         <div class="bibtex-header">
@@ -226,7 +226,7 @@
         </div>
         <pre id="bibtex-code"><code>@inproceedings{markerless_video_tremor_analysis_2026,
   title = {Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models},
-  author = {Anonymized Authors},
+  author = {Koshimoto, Yota and Tsukahara, Akihiro and Moriwaki, Yasuhiro and Isogawa, Mariko},
   booktitle = {Proceedings of MICCAI},
   year = {2026},
   note = {To appear}
